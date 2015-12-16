@@ -68,17 +68,15 @@
   </build>
 
   <modules>
-    <module>wonkel-cart</module>
+    <!-- module>wonkel-cart</module -->
     <module>wonkel-catalog</module>
-    <module>wonkel-checkout</module>
+    <!-- module>wonkel-checkout</module -->
     <module>wonkel-edge</module>
-    <module>wonkel-order</module>
-    <module>wonkel-price</module>
-    <module>wonkel-recommendation</module>
-    <module>wonkel-reporting</module>
-    <module>wonkel-stock</module>
-    <module>wonkel-edge-html5full</module>
-    <module>wonkel-edge-json</module>
+    <!-- module>wonkel-order</module -->
+    <!-- module>wonkel-price</module -->
+    <!-- module>wonkel-recommendation</module -->
+    <!-- module>wonkel-reporting</module -->
+    <!-- module>wonkel-stock</module -->
   </modules>
 
 </project>

@@ -1,4 +1,9 @@
-C:\Users\cwat-mgutenbr\workspace_netflix\wonkel-parent\wonkel-catalog\src\main\java\wonkel\catalog\controller\ProductViewController.java
-C:\Users\cwat-mgutenbr\workspace_netflix\wonkel-parent\wonkel-catalog\src\main\java\wonkel\catalog\controller\CategoryTreeController.java
-C:\Users\cwat-mgutenbr\workspace_netflix\wonkel-parent\wonkel-catalog\src\main\java\wonkel\catalog\controller\CategoryListController.java
-C:\Users\cwat-mgutenbr\workspace_netflix\wonkel-parent\wonkel-catalog\src\main\java\wonkel\catalog\Application.java
+C:\Users\cwat-mgutenbr\workspace_netflix\wonkel\wonkel-catalog\src\main\java\wonkel\catalog\repo\ProductRepository.java
+C:\Users\cwat-mgutenbr\workspace_netflix\wonkel\wonkel-catalog\src\main\java\wonkel\catalog\controller\CategoryTreeController.java
+C:\Users\cwat-mgutenbr\workspace_netflix\wonkel\wonkel-catalog\src\main\java\wonkel\catalog\model\Product.java
+C:\Users\cwat-mgutenbr\workspace_netflix\wonkel\wonkel-catalog\src\main\java\wonkel\catalog\controller\CategoryListController.java
+C:\Users\cwat-mgutenbr\workspace_netflix\wonkel\wonkel-catalog\src\main\java\wonkel\catalog\service\ProductService.java
+C:\Users\cwat-mgutenbr\workspace_netflix\wonkel\wonkel-catalog\src\main\java\wonkel\catalog\model\Category.java
+C:\Users\cwat-mgutenbr\workspace_netflix\wonkel\wonkel-catalog\src\main\java\wonkel\catalog\controller\ProductViewController.java
+C:\Users\cwat-mgutenbr\workspace_netflix\wonkel\wonkel-catalog\src\main\java\wonkel\catalog\service\CategoryService.java
+C:\Users\cwat-mgutenbr\workspace_netflix\wonkel\wonkel-catalog\src\main\java\wonkel\catalog\Application.java
