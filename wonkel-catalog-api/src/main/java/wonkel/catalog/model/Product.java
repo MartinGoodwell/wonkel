@@ -13,6 +13,10 @@ public class Product {
   private String description;
   private String imagePath;
 
+  public Product() {
+    // TODO Auto-generated constructor stub
+  }
+  
   public Product(long id, String title, String description, String imagePath) {
     this.id = id;
     this.title = title;

@@ -5,6 +5,10 @@ public class Category {
   private long id;
   private String title;
   
+  public Category() {
+    // TODO Auto-generated constructor stub
+  }
+  
   /**
    * Always make your beans immutable
    * @param id the part that's relevant for computers
