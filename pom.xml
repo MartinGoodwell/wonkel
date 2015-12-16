@@ -77,6 +77,8 @@
     <module>wonkel-recommendation</module>
     <module>wonkel-reporting</module>
     <module>wonkel-stock</module>
+    <module>wonkel-edge-html5full</module>
+    <module>wonkel-edge-json</module>
   </modules>
 
 </project>
