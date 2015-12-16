@@ -77,6 +77,7 @@
     <!-- module>wonkel-recommendation</module -->
     <!-- module>wonkel-reporting</module -->
     <!-- module>wonkel-stock</module -->
+    <module>wonkel-order</module>
   </modules>
 
 </project>

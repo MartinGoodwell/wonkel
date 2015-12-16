@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>wonkel-edge</artifactId>
   <packaging>pom</packaging>
-
+  
   <parent>
     <groupId>wonkel</groupId>
     <artifactId>wonkel-parent</artifactId>
@@ -10,7 +10,6 @@
   </parent>
   
   <modules>
-    <!-- module>wonkel-edge-html5full</module ->
     <module>wonkel-edge-json</module>
   </modules>
 </project>
