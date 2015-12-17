@@ -8,7 +8,7 @@
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>1.3.0.RELEASE</version>
   </parent>
-  
+
   <properties>
     <java.version>1.8</java.version>
     <start-class>wonkel.edge.json.EdgeJsonApplication</start-class>
@@ -31,7 +31,18 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-    
+
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-turbine</artifactId>
+      <version>1.0.4.RELEASE</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-feign</artifactId>
