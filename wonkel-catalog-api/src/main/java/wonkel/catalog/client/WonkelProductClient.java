@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import wonkel.catalog.model.Product;
 
-@FeignClient(url = "http://catalog.wonkel:8082/")
+@FeignClient("catalog-service")
 public interface WonkelProductClient {
 
   @RequestMapping(method=RequestMethod.GET, value="/product/{id}")
