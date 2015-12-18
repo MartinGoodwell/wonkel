@@ -23,6 +23,13 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-netflix</artifactId>
+        <version>1.0.4.RELEASE</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -35,7 +42,6 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-turbine</artifactId>
-      <version>1.0.4.RELEASE</version>
     </dependency>
 
     <dependency>
@@ -45,14 +51,24 @@
 
     <dependency>
       <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-hystrix</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-feign</artifactId>
-      <version>1.0.4.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-eureka</artifactId>
-      <version>1.0.4.RELEASE</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.netflix.feign</groupId>
+      <artifactId>feign-hystrix</artifactId>
+      <version>8.11.0</version>
+    </dependency>
+
 
     <dependency>
       <groupId>wonkel</groupId>

@@ -21,6 +21,18 @@
       <artifactId>spring-web</artifactId>
       <version>4.2.3.RELEASE</version>
     </dependency>
+    <dependency>
+      <groupId>com.netflix.hystrix</groupId>
+      <artifactId>hystrix-core</artifactId>
+      <version>1.4.21</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>com.netflix.hystrix</groupId>
+      <artifactId>hystrix-javanica</artifactId>
+      <version>1.4.10</version>
+    </dependency>
+
   </dependencies>
 
   <build>
