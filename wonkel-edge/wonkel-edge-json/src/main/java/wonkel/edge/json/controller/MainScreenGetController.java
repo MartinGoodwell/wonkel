@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import wonkel.catalog.client.WonkelProductClient;
 import wonkel.catalog.model.Category;
 import wonkel.catalog.model.Product;
-import wonkel.edge.json.HystrixCategoryCommand;
+import wonkel.edge.json.command.HystrixCategoryCommand;
 import wonkel.edge.json.model.MainScreenModel;
 
 @RestController
