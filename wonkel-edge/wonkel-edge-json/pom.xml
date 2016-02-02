@@ -16,27 +16,6 @@
     <start-class>wonkel.edge.json.EdgeJsonApplication</start-class>
   </properties>
 
-  <!-- dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-dependencies</artifactId>
-        <version>1.3.0.RELEASE</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-netflix</artifactId>
-        <version>1.0.4.RELEASE</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement -->
-  
-  
-
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>

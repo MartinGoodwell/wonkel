@@ -27,7 +27,7 @@ public class CatalogApplication {
   }
 
   public @Bean MongoDbFactory mongoDbFactory() throws Exception {
-    return new SimpleMongoDbFactory(new MongoClient(mongoHost), "wonkel-catalog");
+    return new SimpleMongoDbFactory(new MongoClient(), "wonkel-catalog");
   }
 
 }
