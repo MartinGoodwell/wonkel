@@ -1,5 +1,6 @@
 package wonkel.edge.json.model;
 
+import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -8,9 +9,9 @@ import wonkel.catalog.model.Product;
 
 public class MainScreenModel {
   private List<Category> categories;
-  private List<Product> products;
+  private Collection<Product> products;
 
-  public MainScreenModel(List<Category> categories, List<Product> products) {
+  public MainScreenModel(List<Category> categories, Collection<Product> products) {
     this.categories = categories;
     this.products = products;
   }
@@ -19,7 +20,7 @@ public class MainScreenModel {
     return Collections.unmodifiableList(categories);
   }
   
-  public List<Product> getProducts() {
-    return Collections.unmodifiableList(products);
+  public Collection<Product> getProducts() {
+    return Collections.unmodifiableCollection(products);
   }
 }

@@ -1,6 +1,6 @@
 package wonkel.edge.json.command;
 
-import java.util.List;
+import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
@@ -15,7 +15,7 @@ import wonkel.catalog.model.Product;
 
 @Service
 @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-public class HystrixProductOfCategoryCommand extends HystrixCommand<List<Product>> {
+public class HystrixProductOfCategoryCommand extends HystrixCommand<Collection<Product>> {
 
   private WonkelProductGetClient productClient;
   private String category;
@@ -29,20 +29,20 @@ public class HystrixProductOfCategoryCommand extends HystrixCommand<List<Product
   }
 
   @Override
-  public List<Product> execute() {
+  public Collection<Product> execute() {
     if (this.category == null) {
       throw new IllegalStateException("you must use execute(category)");
     }
     return super.execute();
   }
   
-  public List<Product> execute(String category) {
+  public Collection<Product> execute(String category) {
     this.category = category;
     return this.execute();
   }
   
   @Override
-  protected List<Product> run() throws Exception {
+  protected Collection<Product> run() throws Exception {
     return productClient.products(category);
   }
 

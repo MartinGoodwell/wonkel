@@ -1,5 +1,6 @@
 package wonkel.edge.json.controller;
 
+import java.util.Collection;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +26,7 @@ public class MainScreenGetController {
   @RequestMapping(value="/{category}", produces="application/json")
   public MainScreenModel loadMainScreen(@PathVariable("category") String category) {
     List<Category> categories = catClient.execute();
-    List<Product> products = prodClient.execute(category);
+    Collection<Product> products = prodClient.execute(category);
     
     MainScreenModel result = new MainScreenModel(categories, products);
     return result;
