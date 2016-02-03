@@ -18,7 +18,7 @@
 
   <modules>
     <module>wonkel-catalog-api</module>
-    <module>wonkel-catalog-mongodb</module>
+    <module>wonkel-catalog-mockdb</module>
   </modules>
 
 </project>
