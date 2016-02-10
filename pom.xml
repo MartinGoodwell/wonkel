@@ -65,8 +65,8 @@
   
   <modules>
     <module>wonkel-eureka-server</module>
-    <module>wonkel-catalog</module>
-    <module>wonkel-edge</module>
+    <module>wonkel-catalog/wonkel-catalog-mockdb</module>
+    <module>wonkel-edge/wonkel-edge-json</module>
   </modules>
 
   <build>
