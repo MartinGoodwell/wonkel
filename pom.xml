@@ -62,6 +62,12 @@
       </snapshots>
     </repository>
   </repositories>
+  
+  <modules>
+    <module>wonkel-eureka-server</module>
+    <module>wonkel-catalog</module>
+    <module>wonkel-edge</module>
+  </modules>
 
   <build>
     <plugins>
